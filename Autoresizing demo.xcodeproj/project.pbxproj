@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A1811EB27EC38D7009D860F /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1811E727EC38D7009D860F /* Json4Swift_Base.swift */; };
+		7A1811EC27EC38D7009D860F /* Sedan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1811E827EC38D7009D860F /* Sedan.swift */; };
+		7A1811ED27EC38D7009D860F /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1811E927EC38D7009D860F /* Cars.swift */; };
+		7A1811EE27EC38D7009D860F /* CarModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1811EA27EC38D7009D860F /* CarModels.swift */; };
+		7AA994CA27EAE84E00AF536F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA994C927EAE84E00AF536F /* AppDelegate.swift */; };
+		7AA994CC27EAE84E00AF536F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA994CB27EAE84E00AF536F /* SceneDelegate.swift */; };
+		7AA994CE27EAE84E00AF536F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA994CD27EAE84E00AF536F /* ViewController.swift */; };
+		7AA994D127EAE84E00AF536F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA994CF27EAE84E00AF536F /* Main.storyboard */; };
+		7AA994D327EAE85200AF536F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA994D227EAE85200AF536F /* Assets.xcassets */; };
+		7AA994D627EAE85200AF536F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA994D427EAE85200AF536F /* LaunchScreen.storyboard */; };
+		7AA994E127EAE85200AF536F /* Autoresizing_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA994E027EAE85200AF536F /* Autoresizing_demoTests.swift */; };
+		7AA994EB27EAE85200AF536F /* Autoresizing_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA994EA27EAE85200AF536F /* Autoresizing_demoUITests.swift */; };
+		7AA994ED27EAE85200AF536F /* Autoresizing_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA994EC27EAE85200AF536F /* Autoresizing_demoUITestsLaunchTests.swift */; };
+		7AD7279C27EC4F2400A5CA32 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD7279B27EC4F2400A5CA32 /* data.json */; };
+		7AD7279E27EC709600A5CA32 /* CarTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD7279D27EC709600A5CA32 /* CarTypeTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AA994DD27EAE85200AF536F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AA994BE27EAE84E00AF536F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA994C527EAE84E00AF536F;
+			remoteInfo = "Autoresizing demo";
+		};
+		7AA994E727EAE85200AF536F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AA994BE27EAE84E00AF536F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA994C527EAE84E00AF536F;
+			remoteInfo = "Autoresizing demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A1811E727EC38D7009D860F /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
+		7A1811E827EC38D7009D860F /* Sedan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sedan.swift; sourceTree = "<group>"; };
+		7A1811E927EC38D7009D860F /* Cars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		7A1811EA27EC38D7009D860F /* CarModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarModels.swift; sourceTree = "<group>"; };
+		7AA994C627EAE84E00AF536F /* Autoresizing demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autoresizing demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA994C927EAE84E00AF536F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AA994CB27EAE84E00AF536F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7AA994CD27EAE84E00AF536F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AA994D027EAE84E00AF536F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AA994D227EAE85200AF536F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AA994D527EAE85200AF536F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AA994D727EAE85200AF536F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA994DC27EAE85200AF536F /* Autoresizing demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autoresizing demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA994E027EAE85200AF536F /* Autoresizing_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autoresizing_demoTests.swift; sourceTree = "<group>"; };
+		7AA994E627EAE85200AF536F /* Autoresizing demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autoresizing demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA994EA27EAE85200AF536F /* Autoresizing_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autoresizing_demoUITests.swift; sourceTree = "<group>"; };
+		7AA994EC27EAE85200AF536F /* Autoresizing_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autoresizing_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AD7279B27EC4F2400A5CA32 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = SOURCE_ROOT; };
+		7AD7279D27EC709600A5CA32 /* CarTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTypeTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA994C327EAE84E00AF536F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA994D927EAE85200AF536F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA994E327EAE85200AF536F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A1811E627EC38D7009D860F /* carJSON */ = {
+			isa = PBXGroup;
+			children = (
+				7A1811E727EC38D7009D860F /* Json4Swift_Base.swift */,
+				7A1811E827EC38D7009D860F /* Sedan.swift */,
+				7A1811E927EC38D7009D860F /* Cars.swift */,
+				7A1811EA27EC38D7009D860F /* CarModels.swift */,
+			);
+			path = carJSON;
+			sourceTree = "<group>";
+		};
+		7AA994BD27EAE84E00AF536F = {
+			isa = PBXGroup;
+			children = (
+				7AA994C827EAE84E00AF536F /* Autoresizing demo */,
+				7AA994DF27EAE85200AF536F /* Autoresizing demoTests */,
+				7AA994E927EAE85200AF536F /* Autoresizing demoUITests */,
+				7AA994C727EAE84E00AF536F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA994C727EAE84E00AF536F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA994C627EAE84E00AF536F /* Autoresizing demo.app */,
+				7AA994DC27EAE85200AF536F /* Autoresizing demoTests.xctest */,
+				7AA994E627EAE85200AF536F /* Autoresizing demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA994C827EAE84E00AF536F /* Autoresizing demo */ = {
+			isa = PBXGroup;
+			children = (
+				7AD7279B27EC4F2400A5CA32 /* data.json */,
+				7AA994C927EAE84E00AF536F /* AppDelegate.swift */,
+				7AA994CB27EAE84E00AF536F /* SceneDelegate.swift */,
+				7AA994CD27EAE84E00AF536F /* ViewController.swift */,
+				7AD7279D27EC709600A5CA32 /* CarTypeTableViewCell.swift */,
+				7A1811E627EC38D7009D860F /* carJSON */,
+				7AA994CF27EAE84E00AF536F /* Main.storyboard */,
+				7AA994D227EAE85200AF536F /* Assets.xcassets */,
+				7AA994D427EAE85200AF536F /* LaunchScreen.storyboard */,
+				7AA994D727EAE85200AF536F /* Info.plist */,
+			);
+			path = "Autoresizing demo";
+			sourceTree = "<group>";
+		};
+		7AA994DF27EAE85200AF536F /* Autoresizing demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA994E027EAE85200AF536F /* Autoresizing_demoTests.swift */,
+			);
+			path = "Autoresizing demoTests";
+			sourceTree = "<group>";
+		};
+		7AA994E927EAE85200AF536F /* Autoresizing demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA994EA27EAE85200AF536F /* Autoresizing_demoUITests.swift */,
+				7AA994EC27EAE85200AF536F /* Autoresizing_demoUITestsLaunchTests.swift */,
+			);
+			path = "Autoresizing demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA994C527EAE84E00AF536F /* Autoresizing demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA994F027EAE85200AF536F /* Build configuration list for PBXNativeTarget "Autoresizing demo" */;
+			buildPhases = (
+				7AA994C227EAE84E00AF536F /* Sources */,
+				7AA994C327EAE84E00AF536F /* Frameworks */,
+				7AA994C427EAE84E00AF536F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autoresizing demo";
+			productName = "Autoresizing demo";
+			productReference = 7AA994C627EAE84E00AF536F /* Autoresizing demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AA994DB27EAE85200AF536F /* Autoresizing demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA994F327EAE85200AF536F /* Build configuration list for PBXNativeTarget "Autoresizing demoTests" */;
+			buildPhases = (
+				7AA994D827EAE85200AF536F /* Sources */,
+				7AA994D927EAE85200AF536F /* Frameworks */,
+				7AA994DA27EAE85200AF536F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA994DE27EAE85200AF536F /* PBXTargetDependency */,
+			);
+			name = "Autoresizing demoTests";
+			productName = "Autoresizing demoTests";
+			productReference = 7AA994DC27EAE85200AF536F /* Autoresizing demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AA994E527EAE85200AF536F /* Autoresizing demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA994F627EAE85200AF536F /* Build configuration list for PBXNativeTarget "Autoresizing demoUITests" */;
+			buildPhases = (
+				7AA994E227EAE85200AF536F /* Sources */,
+				7AA994E327EAE85200AF536F /* Frameworks */,
+				7AA994E427EAE85200AF536F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA994E827EAE85200AF536F /* PBXTargetDependency */,
+			);
+			name = "Autoresizing demoUITests";
+			productName = "Autoresizing demoUITests";
+			productReference = 7AA994E627EAE85200AF536F /* Autoresizing demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA994BE27EAE84E00AF536F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7AA994C527EAE84E00AF536F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7AA994DB27EAE85200AF536F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7AA994C527EAE84E00AF536F;
+					};
+					7AA994E527EAE85200AF536F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7AA994C527EAE84E00AF536F;
+					};
+				};
+			};
+			buildConfigurationList = 7AA994C127EAE84E00AF536F /* Build configuration list for PBXProject "Autoresizing demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA994BD27EAE84E00AF536F;
+			productRefGroup = 7AA994C727EAE84E00AF536F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA994C527EAE84E00AF536F /* Autoresizing demo */,
+				7AA994DB27EAE85200AF536F /* Autoresizing demoTests */,
+				7AA994E527EAE85200AF536F /* Autoresizing demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA994C427EAE84E00AF536F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA994D627EAE85200AF536F /* LaunchScreen.storyboard in Resources */,
+				7AA994D327EAE85200AF536F /* Assets.xcassets in Resources */,
+				7AA994D127EAE84E00AF536F /* Main.storyboard in Resources */,
+				7AD7279C27EC4F2400A5CA32 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA994DA27EAE85200AF536F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA994E427EAE85200AF536F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA994C227EAE84E00AF536F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD7279E27EC709600A5CA32 /* CarTypeTableViewCell.swift in Sources */,
+				7AA994CE27EAE84E00AF536F /* ViewController.swift in Sources */,
+				7A1811EB27EC38D7009D860F /* Json4Swift_Base.swift in Sources */,
+				7A1811EC27EC38D7009D860F /* Sedan.swift in Sources */,
+				7A1811EE27EC38D7009D860F /* CarModels.swift in Sources */,
+				7AA994CA27EAE84E00AF536F /* AppDelegate.swift in Sources */,
+				7A1811ED27EC38D7009D860F /* Cars.swift in Sources */,
+				7AA994CC27EAE84E00AF536F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA994D827EAE85200AF536F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA994E127EAE85200AF536F /* Autoresizing_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA994E227EAE85200AF536F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA994EB27EAE85200AF536F /* Autoresizing_demoUITests.swift in Sources */,
+				7AA994ED27EAE85200AF536F /* Autoresizing_demoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AA994DE27EAE85200AF536F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA994C527EAE84E00AF536F /* Autoresizing demo */;
+			targetProxy = 7AA994DD27EAE85200AF536F /* PBXContainerItemProxy */;
+		};
+		7AA994E827EAE85200AF536F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA994C527EAE84E00AF536F /* Autoresizing demo */;
+			targetProxy = 7AA994E727EAE85200AF536F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AA994CF27EAE84E00AF536F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA994D027EAE84E00AF536F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AA994D427EAE85200AF536F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA994D527EAE85200AF536F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AA994EE27EAE85200AF536F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AA994EF27EAE85200AF536F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AA994F127EAE85200AF536F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4688YTHGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Autoresizing demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Autoresizing-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AA994F227EAE85200AF536F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4688YTHGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Autoresizing demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Autoresizing-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AA994F427EAE85200AF536F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4688YTHGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Autoresizing-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autoresizing demo.app/Autoresizing demo";
+			};
+			name = Debug;
+		};
+		7AA994F527EAE85200AF536F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4688YTHGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Autoresizing-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autoresizing demo.app/Autoresizing demo";
+			};
+			name = Release;
+		};
+		7AA994F727EAE85200AF536F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4688YTHGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Autoresizing-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Autoresizing demo";
+			};
+			name = Debug;
+		};
+		7AA994F827EAE85200AF536F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4688YTHGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham.Autoresizing-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Autoresizing demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA994C127EAE84E00AF536F /* Build configuration list for PBXProject "Autoresizing demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA994EE27EAE85200AF536F /* Debug */,
+				7AA994EF27EAE85200AF536F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA994F027EAE85200AF536F /* Build configuration list for PBXNativeTarget "Autoresizing demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA994F127EAE85200AF536F /* Debug */,
+				7AA994F227EAE85200AF536F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA994F327EAE85200AF536F /* Build configuration list for PBXNativeTarget "Autoresizing demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA994F427EAE85200AF536F /* Debug */,
+				7AA994F527EAE85200AF536F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA994F627EAE85200AF536F /* Build configuration list for PBXNativeTarget "Autoresizing demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA994F727EAE85200AF536F /* Debug */,
+				7AA994F827EAE85200AF536F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AA994BE27EAE84E00AF536F /* Project object */;
+}
