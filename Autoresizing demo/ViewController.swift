@@ -7,56 +7,12 @@
 
 import UIKit
 
-//struct Result: Codable {
-//    let data: [ResultIten]
-//}
-//
-//struct ResultIten: Codable {
-//    let titles: String
-//    let items: [item]
-//}
-
-//struct item: Codable {
-//    let Apple: String
-//    let Orange: String
-//    let Grapes: String
-//    let Berry: String
-//}
-
-
-struct carTypes: Codable {
-    let Sedan: Result
-    let SUV: Result
-    let Tempo_Travler: Result
-}
-
-struct Result: Codable {
-    let carType: String
-    let availabel: String
-    let fare: String
-    let ac: String
-    let seater: String
-    let bags: String
-    let cars: [CarsModel]
-}
-
-struct CarsModel: Codable {
-    let carName: String
-    let serviceType: String
-    let availabel: String
-    let fare: String
-    let carModels: [Models]
-}
-
-struct Models: Codable {
-    let modelYear: String
-    let ratings: String
-    let fare: String
-}
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
+    @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var testButton: UIButton!
     @IBOutlet weak var label1: UILabel!
     var findCar = [carTypes]()
     var bounds = UIScreen.main.bounds
@@ -73,9 +29,52 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         //            label1.font = label1.font.withSize(50)
         //        }
         
+//        sizeClass(label: label1)
+        
+        myLabel.adjustsFontSizeToFitWidth = true
+    
+//        myLabel.minimumScaleFactor = 0.5
+        
+        print("Label Font Size  : ",myLabel.font.pointSize)
+        
+        testButton.setTitle("Shubham Shinde", for: .normal)
+        testButton.setImage(UIImage(named: "Bullet"), for: .normal)
+        testButton.semanticContentAttribute = .forceRightToLeft
+        
+        testButton.titleLabel?.adjustsFontSizeToFitWidth = true
+        testButton.titleLabel?.lineBreakMode = .byWordWrapping
+        testButton.titleLabel?.minimumScaleFactor = 0.25
+
+        
         loadJson()
     }
     
+    func sizeClass(label: UILabel) {
+        let bounds = UIScreen.main.bounds
+        let height = bounds.size.height
+        
+        switch height {
+        case 812:
+            label.font = label.font.withSize(50); break;
+        case 667:
+            label.font = label.font.withSize(40); break;
+        case 844:
+            label.font = label.font.withSize(30); break;
+        case 926:
+            label.font = label.font.withSize(20); break;
+        case 896:
+            label.font = label.font.withSize(10); break;
+        case 736:
+            label.font = label.font.withSize(15); break;
+        case 568:
+            label.font = label.font.withSize(25); break;
+        default:
+            print("undefine height")
+        }
+    }
+    
+    @IBAction func testButtonAction(_ sender: Any) {
+    }
     private func loadJson() {
         guard let path = Bundle.main.path(forResource: "data", ofType: ".json") else {
             return
@@ -87,7 +86,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             result = try JSONDecoder().decode(carTypes.self, from: jsonData)
             
             if let result = result {
-                print("get result:",result)
+//                print("get result:",result)
                 findCar.append(result)
                 print("Array:",findCar)
             } else {
@@ -104,7 +103,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = carsTabelView.dequeueReusableCell(withIdentifier: "cell") as! CarTypeTableViewCell
-        cell.carTypeLabel.text = findCar[indexPath.row].Sedan.carType
+    cell.carTypeLabel.text = findCar[indexPath.row].tempo_Travler?.carType
+        print("First element : ", findCar[indexPath.row])
         return cell
     }
 }

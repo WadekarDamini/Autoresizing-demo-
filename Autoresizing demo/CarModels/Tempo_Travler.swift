@@ -12,28 +12,35 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 */
 
 import Foundation
-//struct Json4Swift_Base : Codable {
-//	let sedan : [Sedan]?
-//
-//	enum CodingKeys: String, CodingKey {
-//
-//		case sedan = "Sedan"
-//	}
-//
-//	init(from decoder: Decoder) throws {
-//		let values = try decoder.container(keyedBy: CodingKeys.self)
-//		sedan = try values.decodeIfPresent([Sedan].self, forKey: .sedan)
-//	}
-//
-//}
+struct Tempo_Travler : Codable {
+	let carType : String?
+	let availabel : String?
+	let fare : String?
+	let ac : String?
+	let seater : String?
+	let bags : String?
+	let cars : [Cars]?
 
+	enum CodingKeys: String, CodingKey {
 
-struct Json4Swift_Base : Codable {
-    let carType: String
-    let availabel: String
-    let fare: String
-    let AC: String
-    let seater: String
-    let bags: String
+		case carType = "carType"
+		case availabel = "availabel"
+		case fare = "fare"
+		case ac = "ac"
+		case seater = "seater"
+		case bags = "bags"
+		case cars = "cars"
+	}
+
+	init(from decoder: Decoder) throws {
+		let values = try decoder.container(keyedBy: CodingKeys.self)
+		carType = try values.decodeIfPresent(String.self, forKey: .carType)
+		availabel = try values.decodeIfPresent(String.self, forKey: .availabel)
+		fare = try values.decodeIfPresent(String.self, forKey: .fare)
+		ac = try values.decodeIfPresent(String.self, forKey: .ac)
+		seater = try values.decodeIfPresent(String.self, forKey: .seater)
+		bags = try values.decodeIfPresent(String.self, forKey: .bags)
+		cars = try values.decodeIfPresent([Cars].self, forKey: .cars)
+	}
+
 }
-

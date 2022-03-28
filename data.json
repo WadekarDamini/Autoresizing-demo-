@@ -82,7 +82,7 @@
     },
     "SUV":
     {
-        "carType": "sedan",
+        "carType": "suv",
         "availabel": "3",
         "fare": "3100-9000",
         "ac": "YES",
@@ -162,7 +162,7 @@
     },
     "Tempo_Travler":
     {
-        "carType": "sedan",
+        "carType": "Tempo_Travler",
         "availabel": "3",
         "fare": "3100-9000",
         "ac": "YES",

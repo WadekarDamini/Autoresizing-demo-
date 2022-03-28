@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A1811EB27EC38D7009D860F /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1811E727EC38D7009D860F /* Json4Swift_Base.swift */; };
-		7A1811EC27EC38D7009D860F /* Sedan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1811E827EC38D7009D860F /* Sedan.swift */; };
-		7A1811ED27EC38D7009D860F /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1811E927EC38D7009D860F /* Cars.swift */; };
-		7A1811EE27EC38D7009D860F /* CarModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1811EA27EC38D7009D860F /* CarModels.swift */; };
 		7AA994CA27EAE84E00AF536F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA994C927EAE84E00AF536F /* AppDelegate.swift */; };
 		7AA994CC27EAE84E00AF536F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA994CB27EAE84E00AF536F /* SceneDelegate.swift */; };
 		7AA994CE27EAE84E00AF536F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA994CD27EAE84E00AF536F /* ViewController.swift */; };
@@ -22,6 +18,12 @@
 		7AA994ED27EAE85200AF536F /* Autoresizing_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA994EC27EAE85200AF536F /* Autoresizing_demoUITestsLaunchTests.swift */; };
 		7AD7279C27EC4F2400A5CA32 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD7279B27EC4F2400A5CA32 /* data.json */; };
 		7AD7279E27EC709600A5CA32 /* CarTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD7279D27EC709600A5CA32 /* CarTypeTableViewCell.swift */; };
+		7AD727B327EC972600A5CA32 /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD727AD27EC972600A5CA32 /* Json4Swift_Base.swift */; };
+		7AD727B427EC972600A5CA32 /* Sedan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD727AE27EC972600A5CA32 /* Sedan.swift */; };
+		7AD727B527EC972600A5CA32 /* SUV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD727AF27EC972600A5CA32 /* SUV.swift */; };
+		7AD727B627EC972600A5CA32 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD727B027EC972600A5CA32 /* Cars.swift */; };
+		7AD727B727EC972600A5CA32 /* CarModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD727B127EC972600A5CA32 /* CarModels.swift */; };
+		7AD727B827EC972600A5CA32 /* Tempo_Travler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD727B227EC972600A5CA32 /* Tempo_Travler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7A1811E727EC38D7009D860F /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
-		7A1811E827EC38D7009D860F /* Sedan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sedan.swift; sourceTree = "<group>"; };
-		7A1811E927EC38D7009D860F /* Cars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
-		7A1811EA27EC38D7009D860F /* CarModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarModels.swift; sourceTree = "<group>"; };
 		7AA994C627EAE84E00AF536F /* Autoresizing demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autoresizing demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA994C927EAE84E00AF536F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AA994CB27EAE84E00AF536F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +59,12 @@
 		7AA994EC27EAE85200AF536F /* Autoresizing_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autoresizing_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7AD7279B27EC4F2400A5CA32 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = SOURCE_ROOT; };
 		7AD7279D27EC709600A5CA32 /* CarTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTypeTableViewCell.swift; sourceTree = "<group>"; };
+		7AD727AD27EC972600A5CA32 /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
+		7AD727AE27EC972600A5CA32 /* Sedan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sedan.swift; sourceTree = "<group>"; };
+		7AD727AF27EC972600A5CA32 /* SUV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SUV.swift; sourceTree = "<group>"; };
+		7AD727B027EC972600A5CA32 /* Cars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		7AD727B127EC972600A5CA32 /* CarModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarModels.swift; sourceTree = "<group>"; };
+		7AD727B227EC972600A5CA32 /* Tempo_Travler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tempo_Travler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,17 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A1811E627EC38D7009D860F /* carJSON */ = {
-			isa = PBXGroup;
-			children = (
-				7A1811E727EC38D7009D860F /* Json4Swift_Base.swift */,
-				7A1811E827EC38D7009D860F /* Sedan.swift */,
-				7A1811E927EC38D7009D860F /* Cars.swift */,
-				7A1811EA27EC38D7009D860F /* CarModels.swift */,
-			);
-			path = carJSON;
-			sourceTree = "<group>";
-		};
 		7AA994BD27EAE84E00AF536F = {
 			isa = PBXGroup;
 			children = (
@@ -123,11 +116,11 @@
 			isa = PBXGroup;
 			children = (
 				7AD7279B27EC4F2400A5CA32 /* data.json */,
+				7AD727AC27EC972600A5CA32 /* CarModels */,
 				7AA994C927EAE84E00AF536F /* AppDelegate.swift */,
 				7AA994CB27EAE84E00AF536F /* SceneDelegate.swift */,
 				7AA994CD27EAE84E00AF536F /* ViewController.swift */,
 				7AD7279D27EC709600A5CA32 /* CarTypeTableViewCell.swift */,
-				7A1811E627EC38D7009D860F /* carJSON */,
 				7AA994CF27EAE84E00AF536F /* Main.storyboard */,
 				7AA994D227EAE85200AF536F /* Assets.xcassets */,
 				7AA994D427EAE85200AF536F /* LaunchScreen.storyboard */,
@@ -151,6 +144,19 @@
 				7AA994EC27EAE85200AF536F /* Autoresizing_demoUITestsLaunchTests.swift */,
 			);
 			path = "Autoresizing demoUITests";
+			sourceTree = "<group>";
+		};
+		7AD727AC27EC972600A5CA32 /* CarModels */ = {
+			isa = PBXGroup;
+			children = (
+				7AD727AD27EC972600A5CA32 /* Json4Swift_Base.swift */,
+				7AD727AE27EC972600A5CA32 /* Sedan.swift */,
+				7AD727AF27EC972600A5CA32 /* SUV.swift */,
+				7AD727B027EC972600A5CA32 /* Cars.swift */,
+				7AD727B127EC972600A5CA32 /* CarModels.swift */,
+				7AD727B227EC972600A5CA32 /* Tempo_Travler.swift */,
+			);
+			path = CarModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,13 +292,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AD7279E27EC709600A5CA32 /* CarTypeTableViewCell.swift in Sources */,
+				7AD727B727EC972600A5CA32 /* CarModels.swift in Sources */,
+				7AD727B527EC972600A5CA32 /* SUV.swift in Sources */,
 				7AA994CE27EAE84E00AF536F /* ViewController.swift in Sources */,
-				7A1811EB27EC38D7009D860F /* Json4Swift_Base.swift in Sources */,
-				7A1811EC27EC38D7009D860F /* Sedan.swift in Sources */,
-				7A1811EE27EC38D7009D860F /* CarModels.swift in Sources */,
 				7AA994CA27EAE84E00AF536F /* AppDelegate.swift in Sources */,
-				7A1811ED27EC38D7009D860F /* Cars.swift in Sources */,
+				7AD727B327EC972600A5CA32 /* Json4Swift_Base.swift in Sources */,
 				7AA994CC27EAE84E00AF536F /* SceneDelegate.swift in Sources */,
+				7AD727B627EC972600A5CA32 /* Cars.swift in Sources */,
+				7AD727B827EC972600A5CA32 /* Tempo_Travler.swift in Sources */,
+				7AD727B427EC972600A5CA32 /* Sedan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
